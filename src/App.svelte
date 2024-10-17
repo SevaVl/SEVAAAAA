@@ -1,10 +1,10 @@
-<!-- <script>
+<script>
   import Comp1 from "./lib/Comp1.svelte";
   import Comp2 from "./lib/Comp2.svelte";
   import Comp3 from "./lib/Comp3.svelte";
-  import TopMenu from "./lib/TopMenu.svelte";
+  // import TopMenu from "./lib/TopMenu.svelte";
 
-  import DetectMessage from "./lib/Detector.svelte";
+  // import DetectMessage from "./lib/Detector.svelte";
 
   //Массив объектов, содержащий ссылки на 3 компонента
   const options = [
@@ -23,65 +23,73 @@
     //Функция вызывается из верхнего меню и определяет
     //выбранный пользователем компонент
     selected = options[idcomp];
-    active_item = idcomp;
   }
 
-  let current_message;
-
-  /**
-   * @param {string} mess - текст сообщения
-   */
-  function SendMessage(mess) {
-    //функция вызывается из компонентов Comp1, Comp2 и Comp3
-    //Каждый из них формирует свое сообщение, к-е передается
-    //через аргумент mess  и определяет переменную current_message.
-    //Current_message передается в компонент Detector через prop messagefrom
-    current_message = mess;
-    clicked = true;
-    setTimeout(() => {
-      clicked = false;
-    }, 200);
-  }
 
   let clicked = false;
-</script> -->
+
+  function onclick(id){
+    selected = options[id];
+
+  }
+</script>
+
+
+
 
 <main>
   <div class="holy-grail">
     <header>
       <nav>
         <h2>Голова</h2>
-        <div class = "header">Коты белые</div>
-        <div class = "header">Коты чёрные</div>
-        <div class = "header">Коты красные</div>
+        
       </nav>
     </header>
 
+
+    
+    <div class="catscategories">
+      
+      <h2>
+        <button  on:click = {()=>onclick(0)}>Коты белые </button>
+      </h2>
+
+      <h2>
+        <button  on:click = {()=>onclick(1)}>Коты чёрные</button>
+
+        </h2>
+
+      <h2>
+        <button  on:click = {()=>onclick(2)}>Коты красные</button>
+      </h2>
+
+    </div>
+
     <div class="container">
       <div class="left-sidebar">
-        <h2>Левый сайдбар</h2>
-        <p>Здесь может быть реклама, новости или дополнительные пункты меню</p>
+        <h2>А сюда никто не смотрит</h2>
+        <p>Ну и ладно, не так уж и жалко</p>
       </div>
 
       <div class="main-content">
-        <h1>Основной контент</h1>
+        <h1>Смешные котята и пальма</h1>
         <div class="item3"><img src = "whitecatbaby.jpg" alt="{"котенок"} котёнок." width="300" height="" /></div>
         <div class="item3"><img src = "181.jpg" alt="{"котенок"} котёнок." width="300" height="" />
         </div><div class="item3"><img src = "ittenVes170221.jpg" alt="{"котенок"} котёнок." width="300" height="" /></div>
         
         <!-- Динамические компоненты -->
-        <!-- <svelte:component
+        <svelte:component
           this={selected.component}
-          app_function={SendMessage}
-        /> -->
+        />
 
       </div>
       <div class="right-sidebar">
-        <h2>Правый сайдбар </h2>
+        <h2>Белый котенок смотрит сюда</h2>
         <!-- <DetectMessage messagefrom={current_message} /> -->
-         Здесь может быть любая дополнительная информация
+         Ему очень интересно
       </div>
     </div>
+
     <footer>
       <h2>Подвал</h2>
     </footer>
@@ -121,7 +129,17 @@
     flex-wrap: wrap;
     padding: 20px;
     flex: 1;
+    text-align: center;
+    
+  }
 
+  .catscategories{
+    display: flex;
+    background-color: #cba6ec;
+    flex: 1;
+    padding: 50px;
+    /* width: 250px; */
+    justify-content: space-around;
   }
 
   .left-sidebar {
