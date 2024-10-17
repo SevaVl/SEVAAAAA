@@ -53,7 +53,6 @@
       <h2>
         <button  on:click = {()=>onclick(0)}>Коты белые </button>
       </h2>
-
       <h2>
         <button  on:click = {()=>onclick(1)}>Коты чёрные</button>
 
