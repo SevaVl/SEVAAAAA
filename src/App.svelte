@@ -86,7 +86,7 @@
         <h1>Смешные котята и пальма</h1>
         <div class="images_cats"><img src = "whitecatbaby.jpg" alt="{"котенок"}." width="500"/></div>
         <div class="images_cats"><img src = "181.jpg" alt="{"котенок"}." width="500"/></div>
-        <div class="images_cats"><img src = "ittenVes170221.jpg" alt="{"котенок"}." width="500"/></div>
+        <div class="images_cats"><img src = "ittenVes170221.jpg" alt="{"котенок"}." width="500" height="" /></div>
 
       </div>
 
