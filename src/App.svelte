@@ -36,7 +36,7 @@
   <div class="holy-grail">
     <header>
       <nav>
-        <h2>Тут много котов !</h2>
+        <h2>Тут много котят !</h2>
         
       </nav>
     </header>
@@ -69,8 +69,11 @@
 
     <div class="container">
       <div class="left-sidebar">
-        <h2>А сюда никто не смотрит</h2>
-        <p>Ну и ладно, не так уж и жалко</p>
+        <h2>Тут тоже много котят</h2>
+        <p>Вот, смотрите</p>
+        <div class="images_cats"><img src = "cat20.jpg" alt="{"котенок"}." width="200" /></div>
+        <div class="images_cats"><img src = "cat30.jpg" alt="{"котенок"}." width="200" /></div>
+        <div class="images_cats"><img src = "cat40.jpg" alt="{"котенок"}." width="200" /></div>
       </div>
       
 
@@ -81,17 +84,19 @@
           this={selected.component}
         />
         <h1>Смешные котята и пальма</h1>
-        <div class="images_cats"><img src = "whitecatbaby.jpg" alt="{"котенок"}." width="500" height="" /></div>
-        <div class="images_cats"><img src = "181.jpg" alt="{"котенок"}." width="500" height="" /></div>
-        <div class="images_cats"><img src = "ittenVes170221.jpg" alt="{"котенок"}." width="500" height="" /></div>
+        <div class="images_cats"><img src = "whitecatbaby.jpg" alt="{"котенок"}." width="500"/></div>
+        <div class="images_cats"><img src = "181.jpg" alt="{"котенок"}." width="500"/></div>
+        <div class="images_cats"><img src = "ittenVes170221.jpg" alt="{"котенок"}." width="500"/></div>
 
       </div>
 
 
       <div class="right-sidebar">
-        <h2>Белый котенок смотрит сюда</h2>
-        <!-- <DetectMessage messagefrom={current_message} /> -->
-         Ему очень интересно
+        <h2>Интересный факт о котятах</h2>
+        Они мяукают
+        <div class="images_cats"><img src = "meow.jpg" alt="{"котенок"}." width="150" height="" /></div>
+        <div class="images_cats"><img src = "котенок.jpg" alt="{"котенок"}." width="150" height="" /></div>
+        <div class="images_cats"><img src = "cat10.jpg" alt="{"котенок"}." width="150" height="" /></div>
       </div>
 
     </div>
