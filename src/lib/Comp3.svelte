@@ -2,7 +2,7 @@
 <h1>Рыжий котенок (Почти красный)</h1>
    
 <div class="cat_photo ">
-    <img src = "RedCat.jpg" alt="{"котенок"} котёнок." width="500" height="">
+    <img src = "RedCat.jpg" alt="{"котенок"} котёнок." width="300" height="">
 </div>
 
 </main>

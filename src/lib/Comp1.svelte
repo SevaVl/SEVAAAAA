@@ -4,7 +4,7 @@
     
     
     <div class="cat_photo ">
-        <img src = "WhiteCat.jpg" alt="{"котенок"} котёнок." width="500" height="">
+        <img src = "WhiteCat.jpg" alt="{"котенок"} котёнок." width="300" height="">
     </div>
 
 </main>
