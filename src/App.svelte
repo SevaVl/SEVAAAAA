@@ -142,7 +142,8 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('vvvvv.jpg');
+    /* background-image: url('vvvvv.jpg'); */
+    background : #9c5fff ;
     border-radius: 8px;
   }
 
@@ -185,7 +186,7 @@
     flex: 1;
     max-width: 250px;
     margin-right: 20px;
-    background-color: #ba89c1;
+    background-color: #a957b4;
     padding: 20px;
     border-radius: 8px;
   }
@@ -204,7 +205,7 @@
     flex: 1;
     max-width: 250px;
     margin-left: 20px;
-    background-color: #ba89c1;
+    background-color: #a957b4;
     padding: 20px;
     border-radius: 8px;
   }
