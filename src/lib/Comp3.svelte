@@ -1,20 +1,18 @@
 <main>
-<h1>Рыжий котенок (Почти красный)</h1>;
+<h1>Рыжий котенок (Почти красный)</h1>
    
-<div class="main-content">
-    <img src = "RedCat.jpg" alt="{"котенок"} котёнок." width="300" height="">;
+<div class="cat_photo ">
+    <img src = "RedCat.jpg" alt="{"котенок"} котёнок." width="500" height="">
 </div>
 
 </main>
 
 
-
-
 <style>
 
-.main-content {
+.cat_photo {
   flex: 3;
   padding: 20px;
-  background-color: chocolate;
+  /* background-color: #b68fff; */
 }
 </style>
