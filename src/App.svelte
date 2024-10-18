@@ -142,7 +142,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('flower.jpg');
+    background-image: url('vvvvv.jpg');
     border-radius: 8px;
   }
 
