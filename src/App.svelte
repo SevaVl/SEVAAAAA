@@ -144,7 +144,7 @@
     flex-direction: column;
     min-height: 100vh;
     /* background-image: url('vvvvv.jpg'); */
-    background : #d2bbf8 ;
+    background: linear-gradient(90deg, rgb(255, 0, 255), rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
     border-radius: 8px;
   }
 
@@ -187,7 +187,7 @@
     flex: 1;
     max-width: 250px;
     margin-right: 20px;
-    background-color: #b282b9;
+    background-color: #f37ab7;
     padding: 20px;
     border-radius: 8px;
   }
@@ -206,7 +206,7 @@
     flex: 1;
     max-width: 250px;
     margin-left: 20px;
-    background-color: #b282b9;
+    background-color: #f37ab7;
     padding: 20px;
     border-radius: 8px;
   }
@@ -223,7 +223,7 @@
   }
  /* кнопки */
   .button_cat {
-    background-color: #daeb8d; /* Green */
+    background: linear-gradient(90deg, rgb(228, 253, 137) 0%, rgba(0, 188, 212, 1) 50%);
     border: none;
     color: rgb(77, 22, 43);
     padding: 15px 32px;
