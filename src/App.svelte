@@ -27,6 +27,7 @@
   function onclick(id){
     selected = options[id];
   }
+  
 </script>
 <!-- JS script -->
 
