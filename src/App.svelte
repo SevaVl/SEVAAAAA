@@ -138,13 +138,13 @@
     font-size: 15px;
     font-style: Georgia;
     font-family: sans-serif;
-    color: #5537c7;
+    color: #0b1c66;
 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     /* background-image: url('vvvvv.jpg'); */
-    background : #9c5fff ;
+    background : #d2bbf8 ;
     border-radius: 8px;
   }
 
@@ -187,7 +187,7 @@
     flex: 1;
     max-width: 250px;
     margin-right: 20px;
-    background-color: #a957b4;
+    background-color: #b282b9;
     padding: 20px;
     border-radius: 8px;
   }
@@ -206,7 +206,7 @@
     flex: 1;
     max-width: 250px;
     margin-left: 20px;
-    background-color: #a957b4;
+    background-color: #b282b9;
     padding: 20px;
     border-radius: 8px;
   }
@@ -223,7 +223,7 @@
   }
  /* кнопки */
   .button_cat {
-    background-color: #b5e1f5; /* Green */
+    background-color: #daeb8d; /* Green */
     border: none;
     color: rgb(77, 22, 43);
     padding: 15px 32px;
