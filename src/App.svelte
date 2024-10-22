@@ -5,6 +5,11 @@
   import Comp2 from "./lib/Comp2.svelte";
   import Comp3 from "./lib/Comp3.svelte";
 
+  // Импортировали значки
+  import Fa from 'svelte-fa'
+  import { faHome, faAppleAlt, faSeedling } from '@fortawesome/free-solid-svg-icons'
+  
+
   //Массив объектов, содержащий ссылки на 3 компонента
   const options = [
     { component: Comp1 },
@@ -49,18 +54,21 @@
       <div>
         <button class = "button_cat"  on:click = {()=>onclick(0)}>
           Кот белый 
+          <Fa icon={faAppleAlt} size="1x"  />
         </button>
       </div>
 
       <div>
         <button class = "button_cat" on:click = {()=>onclick(1)}>
           Кот чёрный
+          <Fa icon={faSeedling} size="1x"/>
         </button>
       </div>
 
       <div>
         <button class = "button_cat" on:click = {()=>onclick(2)}>
           Кот красный
+          <Fa icon={faHome} size="1x"/>
         </button>
       </div>
 
